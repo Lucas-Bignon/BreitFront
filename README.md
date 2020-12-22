@@ -54,7 +54,7 @@ ________________________________________________________________________________
 
 ***Man d'uttilisation***
 
-1 - Lancer le project Scarlett sur votre IDE ou server de Devellopement.
+1 - Lancer le project Scarlett sur votre IDE ou server de Developpement.
 
 2 - lancer  [ `npm start`  pour la version de production ]
             [ `npm run dev` pour la version de dev ]
@@ -65,5 +65,19 @@ ________________________________________________________________________________
 /shop    ==> Vous permet d'avoir une vue globale. ()
 
 /post    ==> Vous donne accès au CRUD ( Les routes 'post/getall' et 'post/INPROGRESS')
+
+__________________________________________________________________________________________
+**Conclusion du challenge**
+
+Wouah, je m'attendais à reussir facilement en javascript front. J'ai donc commencer par la partie Backend Sous Springboot.
+De nombreuse erreur du à une mauvaise configuration de mon systeme ou de mes connaissance insufisante mon décourager au bout de 
+2-3 heure. Je suis partie sur node.js, j'ai reussis a comprendre l'intégralité de se que je fesais et suis partie en solo sur quelque fonctionalité nottament mongoDB et le clusteur (Une fonctionalité non demandé et chronophage) et par pression de temp j'ai rush le code. Enormément de problème avec le Middleware et l'accès au fichier statique/models m'on fait perdre un temp précieux.
+
+Je pense qu'avec 2 jour de plus je peus mener a terme le projet vus l'évolution technique que j'ai fait en 2 jour.
+
+A bientôt pour une devnote sur se projet. Force et houblon !
+
+
+
  
 
