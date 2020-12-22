@@ -73,7 +73,9 @@ Wouah, je m'attendais à reussir facilement en javascript front. J'ai donc comme
 De nombreuse erreur du à une mauvaise configuration de mon systeme ou de mes connaissance insufisante mon décourager au bout de 
 2-3 heure. Je suis partie sur node.js, j'ai reussis a comprendre l'intégralité de se que je fesais et suis partie en solo sur quelque fonctionalité nottament mongoDB et le clusteur (Une fonctionalité non demandé et chronophage) et par pression de temp j'ai rush le code. Enormément de problème avec le Middleware et l'accès au fichier statique/models m'on fait perdre un temp précieux.
 
-Je pense qu'avec 2 jour de plus je peus mener a terme le projet vus l'évolution technique que j'ai fait en 2 jour.
+Je pense qu'avec 2 jour de plus je peus mener a terme le projet vus l'évolution technique que j'ai fait durant se lapse de temp.
+
+
 
 A bientôt pour une devnote sur se projet. Force et houblon !
 
