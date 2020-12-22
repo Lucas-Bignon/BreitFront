@@ -4,11 +4,11 @@ const Post = require('../models/Post');
 const shopController = require('../controllers/shop');
 
 router.get('/', (req,res) => {
-    res.send('hellopd des montages')
+    res.send('Vous etez sur le page de controle du CRUD seule les requete POSTMANE Peuvent être prises en compte')
 })
 
 router.get('/test', (req,res) => {
-    res.send('mdrlol')
+    res.send('Ajout des foncrionalité sur le rep de test')
 })
 // submit post
 router.post('/', async (req, res) => { 
@@ -57,9 +57,9 @@ router.patch('/:postId', (req, res) =>{
 
 // on lache le CRUD et on s ocuppe au moin de recup les info du formulaire voir d ajouter dna smongoDB
 
-router.get("/shoppy", shopController.getIndex);
+router.get("/getall", shopController.getIndex);
 
-router.post("/shoppu", shopController.postIndex);
+router.post("/INPROGRESS", shopController.postIndex);
 
 
 module.exports = router;

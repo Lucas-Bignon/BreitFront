@@ -24,12 +24,11 @@ app.use("/", shopRoutes);
 
 
 
-
 // Path directory
 
 app.get('/', (req,res) => {
-    res.send('hello boys')
-})
+    res.send('Bonjour vous êtes sur page sommaire du projet, veillez prendre connaissance du READ.md');
+});
 
 // je commence a listen le serv
 

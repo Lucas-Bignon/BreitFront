@@ -1,4 +1,7 @@
+const express = require('express');
+const router = express.Router();
 const Post = require('../models/Post');
+const shopController = require('../controllers/shop');
 
 const getIndex = (req, res) => {
     res.render('index');
@@ -11,15 +14,14 @@ const postIndex = async (req, res) =>{
         description: req.body.description,
     });
     try{
-    const savedPost = await post.save(fs.writeFile(p, JSON.stringify(this), err => {
-        if (err) console.log(err);
-    }));
+    const savedPost = await post.save();
     res.json(savedPost);
-    res.redirect("/")
+    console.log("success");
+        res.redirect("/");
     }catch(err){
         res.json({ message: err});
     }
-}
+}   
 
 
 
