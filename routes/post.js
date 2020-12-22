@@ -1,11 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const Post = require('../models/Post')
+const shopController = require('../controllers/shop');
 
-
-router.get('/', (req,res) => {
-    res.send('hellopd des montages')
-})
+router.get('/', shopController.getIndex);
 
 router.get('/test', (req,res) => {
     res.send('mdrlol')

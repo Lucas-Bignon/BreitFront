@@ -6,13 +6,15 @@ const mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 // parse application/json
 app.use(bodyParser.json());
-
+app.set("view engine", "pug");
 
 
 
 // Way import
 const postsRoute = require("./routes/post");
 app.use("/post", postsRoute);
+const shopRoutes = require("./routes/shop");
+app.use("/", shopRoutes);
 
 // Path directory
 
