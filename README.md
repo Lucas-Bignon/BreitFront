@@ -24,17 +24,17 @@ Ordre de priorité :
 
 1 ==> Gestion d'un village (CRUD). &#10004;&#65039; ( Le CRUD est fait [add,delete,update,get])
 
-2 ==> Liste des films. (90% probleme de liaison entre le Middleware et le CRUD)
+2 ==> Liste des films. (90% probleme de liaison entre le Middleware et le CRUD) &#10004;&#65039; / &#10060;
 
-3 ==> Sélectionner 5 films pour un événement
+3 ==> Sélectionner 5 films pour un événement. &#10060;
 
-4 ==> Vote sur les 5 films proposés pour un événement
+4 ==> Vote sur les 5 films proposés pour un événement. &#10060;
 
-5 ==> Création/affichage d'un événement (passage dans un village) sans vote.
+5 ==> Création/affichage d'un événement (passage dans un village) sans vote. &#10060;
 
 &#128994; / &#128308;
 
 Etat d'avancement du projet :
 
-&#128994;&#128994;&#128994;&#128308;&#128308;&#128308;&#128308;&#128308;&#128308;&#128308| 25 / 100%
+&#128994;&#128994;&#128994;&#128308;&#128308;&#128308;&#128308;&#128308;&#128308;&#128308; | 25 / 100%
 
