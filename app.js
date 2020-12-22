@@ -2,12 +2,16 @@
 const express = require("express");
 const app = express();
 require('dotenv/config');
+const path = require('path');
 const mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 // parse application/json
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.set("view engine", "pug");
-
+app.set('views', './templates');
+app.use(express.static(path.join(__dirname, './static')));
+const dirname = "C:\Users\Coal\Desktop\Scarlett\BreitFront\static";
 
 
 // Way import
@@ -15,6 +19,11 @@ const postsRoute = require("./routes/post");
 app.use("/post", postsRoute);
 const shopRoutes = require("./routes/shop");
 app.use("/", shopRoutes);
+
+
+
+
+
 
 // Path directory
 

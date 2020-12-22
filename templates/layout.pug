@@ -1,4 +1,4 @@
-| !DOCTYPE html>
+block content
 
 
 
@@ -15,16 +15,13 @@ script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js' crossorigin=
 link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
 link(href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css')
 //  Core theme CSS (includes Bootstrap)
-link(href='static/css/styles.css' rel='stylesheet')
-link(href='static/css/form.css' rel='stylesheet')
+link(href='../css/styles.css' rel='stylesheet')
+link(href='../css/form.css' rel='stylesheet')
 //  Navigation
 nav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top#mainNav
   .container
     a.navbar-brand.js-scroll-trigger(href='#page-top') Breiz Car
     button.navbar-toggler.navbar-toggler-right.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
-      | 
-Menu
-
       i.fas.fa-bars
     .collapse.navbar-collapse#navbarResponsive
       ul.navbar-nav.ml-auto
@@ -38,9 +35,9 @@ Menu
 header.masthead.bg-primary.text-white.text-center
   .container.d-flex.align-items-center.flex-column
     //  Masthead Avatar Image
-    img.masthead-avatar.mb-5(src='assets/img/avataaars.svg' alt)
+    img.masthead-avatar.mb-5(src='../css/bretagne.png' alt)
     //  Masthead Heading
-    h1.masthead-heading.text-uppercase.mb-0 Salut a tous
+    h1.masthead-heading.text-uppercase.mb-0 Breiz Car !
     //  Icon Divider
     .divider-custom.divider-light
       .divider-custom-line
@@ -48,7 +45,7 @@ header.masthead.bg-primary.text-white.text-center
         i.fas.fa-star
       .divider-custom-line
     //  Masthead Subheading
-    p.masthead-subheading.font-weight-light.mb-0 Breiz car companies
+    p.masthead-subheading.font-weight-light.mb-0 Bienvenue sur notre site
 //  Portfolio Section
 section.page-section.portfolio#portfolio
   .container
@@ -68,42 +65,42 @@ section.page-section.portfolio#portfolio
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='static/assets/img/portfolio/cabin.png' alt)
+          img.img-fluid(src='../css/paris.JPG' alt)
       //  Portfolio Item 2
       .col-md-6.col-lg-4.mb-5
         .portfolio-item.mx-auto(data-toggle='modal' data-target='#portfolioModal2')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='static/assets/img/portfolio/cake.png' alt)
+          img.img-fluid(src='../css/marseille.JPG' alt)
       //  Portfolio Item 3
       .col-md-6.col-lg-4.mb-5
         .portfolio-item.mx-auto(data-toggle='modal' data-target='#portfolioModal3')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='static/assets/img/portfolio/circus.png' alt)
+          img.img-fluid(src='../css/nantes.JPG' alt)
       //  Portfolio Item 4
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .portfolio-item.mx-auto(data-toggle='modal' data-target='#portfolioModal4')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='static/assets/img/portfolio/game.png' alt)
+          img.img-fluid(src='../css/toulouse.JPG' alt)
       //  Portfolio Item 5
       .col-md-6.col-lg-4.mb-5.mb-md-0
         .portfolio-item.mx-auto(data-toggle='modal' data-target='#portfolioModal5')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='static/assets/img/portfolio/safe.png' alt)
+          img.img-fluid(src='../css/bordeaux.JPG' alt)
       //  Portfolio Item 6
       .col-md-6.col-lg-4
         .portfolio-item.mx-auto(data-toggle='modal' data-target='#portfolioModal6')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='static/assets/img/portfolio/submarine.png' alt)
+          img.img-fluid(src='../css/lyon.JPG' alt)
 //  About Section
 section.page-section.bg-primary.text-white.mb-0#about
   .container
@@ -120,21 +117,21 @@ section.page-section.bg-primary.text-white.mb-0#about
         img.card-img-top(src='...' alt='Card image cap')
         .card-body
           h5.card-title Card title
-          p.card-text This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          p.card-text lol
           p.card-text
             small.text-muted Last updated 3 mins ago
       .card
         img.card-img-top(src='...' alt='Card image cap')
         .card-body
           h5.card-title Card title
-          p.card-text This card has supporting text below as a natural lead-in to additional content.
+          p.card-text lol
           p.card-text
             small.text-muted Last updated 3 mins ago
       .card
         img.card-img-top(src='...' alt='Card image cap')
         .card-body
           h5.card-title Card title
-          p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          p.card-text lol
           p.card-text
             small.text-muted Last updated 3 mins ago
 //  Contact Section
@@ -152,11 +149,10 @@ section.page-section#contact
     .row
       .col-lg-8.mx-auto
         //  To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
-        p ici on met le formulaire d ajout de film
         form(action='index.html')
           .form
             .inscription
-              h1 Connexion
+              h3 Un film vous tiens a coeur ?
             .email
               label(for='mail-input') Titre
               input#title-input(type='text' name='title')
@@ -165,29 +161,6 @@ section.page-section#contact
               input#description-input(type='text' name='password')
             div
               button.button Envoyer
-        table.table
-          thead
-            tr
-              th(scope='col') #
-              th(scope='col') First
-              th(scope='col') Last
-              th(scope='col') Handle
-          tbody
-            tr
-              th(scope='row') 1
-              td Mark
-              td Otto
-              td @mdo
-            tr
-              th(scope='row') 2
-              td Jacob
-              td Thornton
-              td @fat
-            tr
-              th(scope='row') 3
-              td Larry
-              td the Bird
-              td @twitter
 //  Footer
 footer.footer.text-center
   .container
@@ -196,13 +169,6 @@ footer.footer.text-center
       .col-lg-4.mb-5.mb-lg-0
         h4.text-uppercase.mb-4 Location
         p.lead.mb-0
-          | 
-2215 John Daniel Drive
-
-          br
-          | 
-Clark, MO 65243
-
       //  Footer Social Icons
       .col-lg-4.mb-5.mb-lg-0
         h4.text-uppercase.mb-4 Around the Web
@@ -254,7 +220,7 @@ Freelance is a free to use, MIT licensed Bootstrap theme created by
                   i.fas.fa-star
                 .divider-custom-line
               //  Portfolio Modal - Image
-              img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cabin.png' alt)
+              img.img-fluid.rounded.mb-5(src='../css/paris.JPG' alt)
               //  Portfolio Modal - Text
               p.mb-5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
               button.btn.btn-primary(data-dismiss='modal')
@@ -411,5 +377,6 @@ script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.ea
 script(src='assets/mail/jqBootstrapValidation.js')
 script(src='assets/mail/contact_me.js')
 //  Core theme JS
-script(src='static/js/scripts.js')
-script(src='app.js')
+script(src='../js/scripts.js')
+script(src='../js/app.js')
+

@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const Post = require('../models/Post')
+const Post = require('../models/Post');
 const shopController = require('../controllers/shop');
 
-router.get('/', shopController.getIndex);
+router.get('/', (req,res) => {
+    res.send('hellopd des montages')
+})
 
 router.get('/test', (req,res) => {
     res.send('mdrlol')
@@ -52,6 +54,12 @@ router.patch('/:postId', (req, res) =>{
     }
 
 });
+
+// on lache le CRUD et on s ocuppe au moin de recup les info du formulaire voir d ajouter dna smongoDB
+
+router.get("/shoppy", shopController.getIndex);
+
+router.post("/shoppu", shopController.postIndex);
 
 
 module.exports = router;
