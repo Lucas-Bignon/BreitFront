@@ -55,12 +55,15 @@ ________________________________________________________________________________
 ***Man d'uttilisation***
 
 1 - Lancer le project Scarlett sur votre IDE ou server de Devellopement.
+
 2 - lancer  [ `npm start`  pour la version de production ]
             [ `npm run dev` pour la version de dev ]
             [ `npm run html2pug` pour convertir le code html en pug lisible par le DOM ]
 
 3 - vous pouvez a présent travailler sur plusieurs page de developpement : 
+
 /shop    ==> Vous permet d'avoir une vue globale. ()
+
 /post    ==> Vous donne accès au CRUD ( Les routes 'post/getall' et 'post/INPROGRESS')
  
 
