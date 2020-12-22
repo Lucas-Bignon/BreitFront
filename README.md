@@ -23,11 +23,18 @@ Les fonctionnalités
 Ordre de priorité : 
 
 1 ==> Gestion d'un village (CRUD). &#10004;&#65039; ( Le CRUD est fait [add,delete,update,get])
+
 2 ==> Liste des films. (90% probleme de liaison entre le Middleware et le CRUD)
+
 3 ==> Sélectionner 5 films pour un événement
+
 4 ==> Vote sur les 5 films proposés pour un événement
+
 5 ==> Création/affichage d'un événement (passage dans un village) sans vote.
 
-&#8213;
-&#x2015;
-&horbar;
+
+Etat d'avancement du projet :
+________________________________________________________________________
+&#8213;&#8213;&#8213;                                                   | 25 / 100%
+
+
